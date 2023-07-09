@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/94fdb861fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--home section containing  logo and navigation bar-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg"  class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Skill">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header_content">
+                <h1>Hi, I'm <span>Shivani </span> Parmar</h1>
+                <p>Developer and Keen Learner</p>
+            </div>
+        </div>
+    </div>
+    <!--This is about section:contains one row and 2 col :one picture ans on text-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="idpic.jpg">
+                </div>
+                <div class="col2">
+                    <h1>About Me</h1><br>
+                     <h2>I'm Shivani Parmar.</h2>
+                    <p>I am a final year student at NIT Patna, pursuing a B.Tech in Computer Science and Engineering. 
+                        <br>I am a quick learner, team player ,creative,dedicated and enthusiastic individual. 
+                       <br> My technical skills include C++, HTML, CSS, JavaScript, Figma, and Canva. 
+                        <br>I thrive on exploring new technologies and applying them to innovative solutions.
+                        <br> Looking forward to making a positive impact in the field of technology.</p><br>
+                        <div class="edu">
+                            <h1>Education</h1>
+                            <details><summary style="font-size: 25px;">B.Tech in Computer Science and Engineering</summary>
+                            <p style="font-size: 20px;">National Institute of Technology,Patna  2020-2024 <br>Cgpa:8.87 </p>
+                            </details> <br>
+                            <details><summary style="font-size: 25px;">XII Class </summary>
+                                <p style="font-size: 20px;">Jawahar Navodaya Vidyalaya,Khargone,M.P  2019<br>Percentage-94.8 </p>
+                                </details><br>
+                                <details><summary style="font-size: 25px;">X Class </summary>
+                                    <p style="font-size: 20px;">Jawahar Navodaya Vidyalaya,Khargone,M.P  2017<br>Cgpa-10.00</p>
+                                    </details>
+
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Skills section-->
+     <div id="Skill">
+        <h1>Skills</h1><br>
+<div class="skillbg">
+    <div class="left">
+        <p>HTML</p>
+        <div class="skill">
+          <div class="skills html">90%</div>
+        </div>
+        
+        <p>CSS</p>
+        <div class="skill">
+          <div class="skills css">85%</div>
+        </div>
+        
+        <p>JavaScript</p>
+        <div class="skill">
+          <div class="skills js">70%</div>
+        </div>
+        
+        <p>C++</p>
+        <div class="skill">
+          <div class="skills cpp">92%</div>
+        </div>
+        <p>Designing</p>
+        <div class="skill">
+          <div class="skills Design">80%</div>
+        </div>
+    </div>
+    <div class="right">
+        <p>In terms of technical skills, I have a strong foundation in C++, HTML, CSS, JavaScript, as well as experience in using tools like Figma and Canva for design-related tasks.
+           <br> My soft skills include creativity,teamwork,time management,problem solving. <br> My area of interest are Web Development,Designing and Art.
+        </p>
+          </div>
+ </div>
+ </div>
+ <!--portfolio section-->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="title"> My Projects</h1>
+        <div class="project-list">
+            <div class="project"><img src="cal.jpg">
+                <div class="layer">
+                    <h3>Basic Calculator App</h3>
+                    <p>It is a simple android calculator app.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" style="color: #f1f2f3;"></i></a>
+                </div>
+            </div>
+            <div class="project"><img src="port.jpg">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>It is a portfolio website built using HTML,CSS,JavaScript.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" style="color: #f1f2f3;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--Contact section-->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="conleft">
+              <h1 class="title">Contact Me</h1>
+              <p><i class="fa-solid fa-envelope" style="color: #cb0606;"></i>parmar.290720@gmail.com</p>
+              <div class="social-icon">
+                <a href="https://www.linkedin.com/in/shivani-parmar-622501202"><i class="fa-brands fa-linkedin" ></i></a>
+                <a href="https://github.com/shi-vaniparmar"><i class="fa-brands fa-square-github"></i></a>
+              </div>
+              <a href="https://drive.google.com/file/d/1FHf-YLU6lwJovKLJocY4eWICOPHPTJJ9/view?usp=sharing" class="btn">Download CV</a>
+            </div>
+            <div class="conright">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  placeholder="Your Message" rows="6"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2023 Shivani Parmar.All rights Reserved.</p>
+    </div>
+ </div>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyXrVOFJhkB-q9WOeU-SonPgZeYQY6CkquzG4czWomRLb_zeqg0L7YlT_IW1K0J3Jtu/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!!!!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },4000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
